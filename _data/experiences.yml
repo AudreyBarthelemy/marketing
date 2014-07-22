@@ -1,0 +1,45 @@
+#        <div class="col-sm-3">
+#            2013 - 2014
+#            <i class="fa fa-circle-o fa-2x primaryColor"></i>
+#        </div>
+#        <div class="col-sm-8">
+#            <div class="expDesc">
+#                <h4>Chargée d'études et enseignante vacataire</h4>
+#                <ul class="list-unstyled">
+#                    <li>Projet «Humour» : étude des stratégies humoristiques en fonction de l’âge</li>
+#                    <li>Analyse de données qualitatives et quantitatives avec SPSS</li>
+#                    <li>Rédaction d’un article en vue de sa publication dans le «British Journal of DevelopmentalPsychology»</li>
+#                    <li>Présentation des résultats en conférences internationales (Lausanne, Toulouse)</li>
+#                    <li>48 heures de formations dont «Emotions et communication»</li>
+#                </ul>
+#            </div>
+#        </div>
+#    </div>
+
+- annee: 2013 - 2014
+  titre: Chargée d'études et enseignante vacataire
+  missions:
+  - Projet «Humour», étude des stratégies humoristiques en fonction de l’âge
+  - Analyse de données qualitatives et quantitatives avec SPSS
+  - Rédaction d’un article en vue de sa publication dans le «British Journal of DevelopmentalPsychology»
+  - Présentation des résultats en conférences internationales (Lausanne, Toulouse)
+  - 48 heures de formations dont «Emotions et communication»
+
+- annee: 2010 - 2013
+  titre: Chargée d'études et de formation
+  missions:
+  - Projet «Imaginer et interagir», étude des comportementsavec les objets et des pratiques de jeu chez l’enfant
+  - Conception de 3 protocoles d’enquêtes
+  - Collecte de données auprès de 7 écoles et 350 enfants (50 heures de film)
+  - Analyses de variances, corrélation et relation d’indépendance avec SPSS et STATISTICA
+  - Rédaction d’un rapport d’études et publication des résultats dansle journal «Psychologie Française»
+  - Présentation des résultats en conférences (Toulouse, Rome)
+  - 288 heures de formations dont «enquêtes et questionnaires» et «statistiques»
+
+- annee: 2008 - 2009
+  titre: Apprentie chargee d'études et de formation
+  missions:
+  - Projet «Jouer et communiquer » étude des compétences sociales enfantines
+  - Publication d’une étude dans le journal «Enfance»
+  - Présentation des résultats en conférences (Vilnius, Madrid)
+  - 96 heures de formations

@@ -1,0 +1,24 @@
+# Site settings
+title: Audrey Barthélemy-Musso
+email: audrey.barthelemy.musso@gmail.com
+description: "Chargée d'étude Marketing"
+
+author: "Audrey Barthélémy"
+headTitle: "Mon CV de chargée d'étude en Marketing - Toulouse - Comportement humain"
+metaDescription: "Audrey Barthélémy-Musso Mobile : 07.87.07.64.74 Email : audrey.barthelemy.musso@gmail.com 31 ans, née à Toulouse Marié"
+
+baseurl: ""
+url: "http://marketing.audreybarthelemy.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+exclude:
+- bower_components
+- less
+- node_modules
+- Gruntfile.js
+- package.json
+- README.md
+- bower.json

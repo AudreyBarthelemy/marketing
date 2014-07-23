@@ -135,6 +135,10 @@ section {
     font-family: 'Josefin Slab', serif;
     font-size:50px;
   }
+
+  a {
+    color: darken(@titleColor, 20%);
+  }
 }
 
 #experiences {
@@ -156,7 +160,9 @@ section {
   .expDesc {
     margin-top:16px;
     background-color: white;
-    padding: 20px 40px;
+    padding: 0px 40px 20px;
+    border-top: 20px white solid;
+    border-left: 20px @expColor solid;
   }
 
   .rowExp {
@@ -206,7 +212,9 @@ section {
   .formDesc {
     margin-top:16px;
     background-color: lighten(@expColor, 5%);
-    padding: 20px 40px;
+    padding: 0px 40px 20px;
+    border-top: 20px lighten(@expColor, 5%) solid;
+    border-left: 20px white solid;
   }
 
   .rowForm {
@@ -228,6 +236,44 @@ section {
       content: "";
     }
   }
+}
+
+#contact {
+  background-color: @titleColor;
+  padding-top:60px;
+  color: white;
+
+  a {
+    color: white;
+  }
+
+  address {
+    margin-bottom:0;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .subTitle {
+    font-size: @font-size-base + 4;
+  }
+
+  .medium-icon {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+
+    &:hover {
+      color: darken(@titleColor, 20%);
+      text-decoration: none;
+    }
+  }
+
 }
 
 .roundedDivPinkSmall {

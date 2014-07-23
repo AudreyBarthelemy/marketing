@@ -146,6 +146,20 @@ section {
   padding-top: 60px;
   padding-bottom: 60px;
 
+  @media @phone {
+    .col-xs-3 {
+      width: 15%;
+    }
+
+    .col-xs-8 {
+      width: 80%;
+    }
+
+    .col-xs-3, .col-xs-8 {
+      padding:0;
+    }
+  }
+
   h2 {
     color: @titleColor;
     text-align: center;
@@ -172,7 +186,7 @@ section {
     &::before {
 
       @media @phone {
-        left: 43px;
+        left: 29px;
       }
 
       position:absolute;
@@ -191,6 +205,20 @@ section {
   background-color: #FFF;
   padding-top: 60px;
   padding-bottom: 60px;
+
+  @media @phone {
+    .col-xs-3 {
+      width: 15%;
+    }
+
+    .col-xs-8 {
+      width: 80%;
+    }
+
+    .col-xs-3, .col-xs-8 {
+      padding:0;
+    }
+  }
 
   h2 {
     color: @titleColor;
@@ -223,7 +251,7 @@ section {
 
     &::before {
       @media @phone {
-        left: 43px;
+        left: 29px;
       }
 
       position:absolute;

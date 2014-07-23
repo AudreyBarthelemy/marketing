@@ -1,21 +1,3 @@
-#        <div class="col-sm-3">
-#            2013 - 2014
-#            <i class="fa fa-circle-o fa-2x primaryColor"></i>
-#        </div>
-#        <div class="col-sm-8">
-#            <div class="expDesc">
-#                <h4>Chargée d'études et enseignante vacataire</h4>
-#                <ul class="list-unstyled">
-#                    <li>Projet «Humour» : étude des stratégies humoristiques en fonction de l’âge</li>
-#                    <li>Analyse de données qualitatives et quantitatives avec SPSS</li>
-#                    <li>Rédaction d’un article en vue de sa publication dans le «British Journal of DevelopmentalPsychology»</li>
-#                    <li>Présentation des résultats en conférences internationales (Lausanne, Toulouse)</li>
-#                    <li>48 heures de formations dont «Emotions et communication»</li>
-#                </ul>
-#            </div>
-#        </div>
-#    </div>
-
 - annee: 2013 - 2014
   titre: Chargée d'études et enseignante vacataire
   missions:

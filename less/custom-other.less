@@ -1,5 +1,6 @@
 @titleColor: rgb(251, 134, 58);
 @expColor:  #DDD;
+@phone: ~"(max-width: 767px)";
 
 .border-radius(@radius){
   .border-top-radius(@radius);
@@ -138,6 +139,8 @@ section {
 
 #experiences {
   background-color: @expColor;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   h2 {
     color: @titleColor;
@@ -159,7 +162,62 @@ section {
   .rowExp {
     position:relative;
     margin-top: 10px;
+
     &::before {
+
+      @media @phone {
+        left: 43px;
+      }
+
+      position:absolute;
+      background-color: darken(@expColor, 20%);
+      display: block;
+      top: 35px;
+      left: 124px;
+      width: 8px;
+      bottom:0;
+      content: "";
+    }
+  }
+}
+
+#formation {
+  background-color: #FFF;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  h2 {
+    color: @titleColor;
+    text-align: center;
+  }
+
+  i {
+    color: spin(@titleColor, 10%);
+    margin-left: 20px;
+    position: relative;
+    top: 4px;
+    left: 45px;
+
+    @media @phone {
+      left: 0;
+    }
+  }
+
+  .formDesc {
+    margin-top:16px;
+    background-color: lighten(@expColor, 5%);
+    padding: 20px 40px;
+  }
+
+  .rowForm {
+    position:relative;
+    margin-top: 10px;
+
+    &::before {
+      @media @phone {
+        left: 43px;
+      }
+
       position:absolute;
       background-color: darken(@expColor, 20%);
       display: block;

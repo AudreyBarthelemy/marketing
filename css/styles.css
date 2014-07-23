@@ -6253,6 +6253,8 @@ section {
 }
 #experiences {
   background-color: #dddddd;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 #experiences h2 {
   color: #fb863a;
@@ -6281,6 +6283,56 @@ section {
   width: 8px;
   bottom: 0;
   content: "";
+}
+@media (max-width: 767px) {
+  #experiences .rowExp::before {
+    left: 43px;
+  }
+}
+#formation {
+  background-color: #FFF;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#formation h2 {
+  color: #fb863a;
+  text-align: center;
+}
+#formation i {
+  color: #fba63a;
+  margin-left: 20px;
+  position: relative;
+  top: 4px;
+  left: 45px;
+}
+@media (max-width: 767px) {
+  #formation i {
+    left: 0;
+  }
+}
+#formation .formDesc {
+  margin-top: 16px;
+  background-color: #eaeaea;
+  padding: 20px 40px;
+}
+#formation .rowForm {
+  position: relative;
+  margin-top: 10px;
+}
+#formation .rowForm::before {
+  position: absolute;
+  background-color: #aaaaaa;
+  display: block;
+  top: 35px;
+  left: 124px;
+  width: 8px;
+  bottom: 0;
+  content: "";
+}
+@media (max-width: 767px) {
+  #formation .rowForm::before {
+    left: 43px;
+  }
 }
 .roundedDivPinkSmall {
   width: 100px;

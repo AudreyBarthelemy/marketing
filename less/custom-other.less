@@ -72,6 +72,10 @@ h3 {
   font-family: @font-family-title;
 }
 
+a {
+  color: darken(@titleColor, 20%);
+}
+
 section {
   padding-bottom: 30px;
 }
@@ -135,10 +139,6 @@ section {
     font-family: 'Josefin Slab', serif;
     font-size:50px;
   }
-
-  a {
-    color: darken(@titleColor, 20%);
-  }
 }
 
 #experiences {
@@ -199,6 +199,14 @@ section {
       content: "";
     }
   }
+}
+
+#expertise {
+  h2 {
+    text-align: center;
+    color: @titleColor;
+  }
+  #map { height: 600px; }
 }
 
 #formation {

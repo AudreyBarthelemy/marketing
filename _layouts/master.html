@@ -21,6 +21,15 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="javascript/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="javascript/bootstrap.min.js"></script>
+
+    <!-- MapBox -->
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' />
+
 </head>
 <body>
 
@@ -28,18 +37,17 @@
 
 {% for sec in site.tags.sections reversed %}
 <section id="{{ sec.htmlId }}">
+    {% if sec.containerLess != true %}
     <div class="container">
         <div class="row">
             {{ sec.content }}
         </div>
     </div>
+    {% else %}
+    {{ sec.content }}
+    {% endif %}
 </section>
 {% endfor %}
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="javascript/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="javascript/bootstrap.min.js"></script>
 
 {% include googleanalytics.html %}
 

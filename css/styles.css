@@ -6198,6 +6198,9 @@ h2 {
 h3 {
   font-family: 'Josefin Slab', serif;
 }
+a {
+  color: #cb5204;
+}
 section {
   padding-bottom: 30px;
 }
@@ -6251,9 +6254,6 @@ section {
   font-family: 'Josefin Slab', serif;
   font-size: 50px;
 }
-#presentation a {
-  color: #cb5204;
-}
 #experiences {
   background-color: #dddddd;
   padding-top: 60px;
@@ -6305,6 +6305,13 @@ section {
   #experiences .rowExp::before {
     left: 29px;
   }
+}
+#expertise h2 {
+  text-align: center;
+  color: #fb863a;
+}
+#expertise #map {
+  height: 600px;
 }
 #formation {
   background-color: #FFF;

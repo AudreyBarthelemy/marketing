@@ -1,0 +1,27 @@
+---
+htmlId: 'expertise'
+tags: ['sections']
+containerLess: true
+---
+<script>
+    $(function(){
+        var map = L.mapbox.map('map', 'popul.j24ic2ki', {
+            zoomControl: false
+        }).setView([48.5, 15], 5);
+
+        // Disable drag and zoom handlers.
+        map.dragging.disable();
+        map.touchZoom.disable();
+        map.doubleClickZoom.disable();
+        map.scrollWheelZoom.disable();
+
+        // Disable tap handler, if present.
+        if (map.tap) map.tap.disable();
+    });
+</script>
+
+<div class="top-buffer-45">
+    <h2>Mes conférences en Europe</h2>
+
+    <div id="map"></div>
+</div>

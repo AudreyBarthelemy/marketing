@@ -5,9 +5,12 @@ containerLess: true
 ---
 <script>
     $(function(){
-        var map = L.mapbox.map('map', 'popul.j24ic2ki', {
+        var geoJSON = [{"features":[{"geometry":{"coordinates":[6.654431,46.504507],"type":"Point"},"properties":{"description":"<a target=\"_blank\" href=\"http://www3.unil.ch/wpmu/ecdp2013/files/2013/08/Abstract-Book-2-9-13.pdf\">The development of social conventions and creativity: how do 3 to 7 years-old children use objects during dyadic play ?</a> (page 107) <br/><br>\n<a target=\"_blank\" href=\"http://www3.unil.ch/wpmu/ecdp2013/\">ECDP 2013</a>\n","id":"marker-hy1axoay1","marker-color":"#fa946e","marker-size":"large","marker-symbol":"circle","title":"Lausanne 2013 - Conférence européenne sur la psychologie du développement"},"type":"Feature"}],"id":"popul.j24ic2ki","type":"FeatureCollection"}],
+            map = L.mapbox.map('map', 'popul.j24ic2ki', {
             zoomControl: false
         }).setView([48.5, 15], 5);
+
+        map.featureLayer.setGeoJSON(geoJSON);
 
         // Disable drag and zoom handlers.
         map.dragging.disable();

@@ -64,14 +64,13 @@ h2 {
 
   color: white;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: normal;
   #title & {
     display:inline-block;
     padding-top:10px;
 //    padding:15px;
 //    background-color: @titleColor;
     font-size: 50px;
-    font-weight: bold;
     margin-top: 10px;
   }
 }
@@ -92,12 +91,17 @@ section {
 //  background-color: @titleColor;
   background:url('../images/crowd_new2.jpg') no-repeat 50% 50%;
   min-height: 600px;
-  padding-top:40px;
+  padding-top:0px;
   padding-bottom:40px;
   text-align: center;
   color: white;
   border-bottom: 5px solid @titleColor;
 
+  h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+  }
   .titleContent {
     position:relative;
 
@@ -106,16 +110,17 @@ section {
       position: absolute;
       bottom: 0;
       left: 50%;
+      margin-left:-26px;
     }
   }
 
   h3 {
-    border: 2px solid white;
-    opacity: 0.9;
-    border-radius: 5px;
-    background-color: @titleColor;
-    display: inline-block;
-    padding: 6px 16px;
+    font-family: @font-family-title-sans;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+//    color: #c30400;
+    color: @titleColor;
   }
 
   .inlineBlock {
@@ -159,7 +164,7 @@ section {
   margin-bottom: 60px;
 
   .Hello {
-    font-family: 'Josefin Slab', serif;
+    font-family: @font-family-title;
     font-size:50px;
   }
 }

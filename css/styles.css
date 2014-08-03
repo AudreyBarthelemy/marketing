@@ -6172,7 +6172,7 @@ body {
   background-color: white;
 }
 .navbar a.navbar-brand {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', serif;
   font-size: 24px;
   color: black;
 }
@@ -6185,25 +6185,24 @@ body {
   background-color: black;
 }
 h1 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', serif;
   color: white;
   font-size: 50px;
 }
 h2 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', serif;
   color: white;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: normal;
 }
 #title h2 {
   display: inline-block;
   padding-top: 10px;
   font-size: 50px;
-  font-weight: bold;
   margin-top: 10px;
 }
 h3 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', serif;
 }
 a {
   color: #cb5204;
@@ -6214,11 +6213,16 @@ section {
 #title {
   background: url('../images/crowd_new2.jpg') no-repeat 50% 50%;
   min-height: 600px;
-  padding-top: 40px;
+  padding-top: 0px;
   padding-bottom: 40px;
   text-align: center;
   color: white;
   border-bottom: 5px solid #fb863a;
+}
+#title h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
 }
 #title .titleContent {
   position: relative;
@@ -6228,14 +6232,14 @@ section {
   position: absolute;
   bottom: 0;
   left: 50%;
+  margin-left: -26px;
 }
 #title h3 {
-  border: 2px solid white;
-  opacity: 0.9;
-  border-radius: 5px;
-  background-color: #fb863a;
-  display: inline-block;
-  padding: 6px 16px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fb863a;
 }
 #title .inlineBlock {
   display: inline-block;
@@ -6270,7 +6274,7 @@ section {
   margin-bottom: 60px;
 }
 #presentation .Hello {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', serif;
   font-size: 50px;
 }
 #experiences {
@@ -6569,7 +6573,7 @@ section {
 }
 /* fonts */
 div.jqcloud {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', serif;
   line-height: normal;
   font-size: 9px;
   float: none;

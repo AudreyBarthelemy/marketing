@@ -37,12 +37,16 @@ body {
 
 .navbar {
   background-color: white;
-}
 
-.navbar-default a.navbar-brand {
-  font-family: @font-family-title;
-  font-size: 24px;
-  color: black;
+  a.navbar-brand {
+    font-family: @font-family-title;
+    font-size: 24px;
+    color: black;
+
+    @media @phone {
+      font-size: 20px;
+    }
+  }
 }
 
 .navbar-toggle .icon-bar {

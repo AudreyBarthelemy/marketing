@@ -6171,10 +6171,15 @@ body {
 .navbar {
   background-color: white;
 }
-.navbar-default a.navbar-brand {
+.navbar a.navbar-brand {
   font-family: 'Josefin Slab', serif;
   font-size: 24px;
   color: black;
+}
+@media (max-width: 767px) {
+  .navbar a.navbar-brand {
+    font-size: 20px;
+  }
 }
 .navbar-toggle .icon-bar {
   background-color: black;

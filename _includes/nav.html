@@ -39,12 +39,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Audrey <span class="primaryColor">Barthélémy-Musso</span></a>
+            <a class="navbar-brand" href="#">A<span class="firstname">udrey</span> <span class="primaryColor">Barthélémy-Musso</span></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 {% for sec in site.tags.sections reversed %}
+                    {% if sec.navHidden != true %}
                     <li><a href="#{{ sec.htmlId }}">{{ sec.title }}</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </div><!--/.nav-collapse -->

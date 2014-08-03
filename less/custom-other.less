@@ -1,6 +1,7 @@
 @titleColor: rgb(251, 134, 58);
 @expColor:  #DDD;
 @phone: ~"(max-width: 767px)";
+@tablet: ~"(min-width: 767px) and (max-width : 991px)";
 
 .border-radius(@radius){
   .border-top-radius(@radius);
@@ -42,6 +43,13 @@ body {
     font-family: @font-family-title;
     font-size: 24px;
     color: black;
+
+    @media @tablet {
+      font-size: 22px;
+      .firstname {
+        display: none;
+      }
+    }
 
     @media @phone {
       font-size: 20px;

@@ -6176,6 +6176,14 @@ body {
   font-size: 24px;
   color: black;
 }
+@media (min-width: 767px) and (max-width : 991px) {
+  .navbar a.navbar-brand {
+    font-size: 22px;
+  }
+  .navbar a.navbar-brand .firstname {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .navbar a.navbar-brand {
     font-size: 20px;

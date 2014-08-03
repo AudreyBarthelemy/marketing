@@ -4,20 +4,28 @@
 
             // prevent default anchor click behavior
             e.preventDefault();
+            e.stopPropagation();
 
             // store hash
             var hash = this.hash;
 
             // animate
             $('html, body').animate({
-                scrollTop: $(this.hash).offset().top - $('.navbar').height()
+                scrollTop: Math.round($(this.hash).offset().top - $('.navbar').height())
             }, 600, function(){
-
+//                e.preventDefault();
+//                e.stopPropagation();
                 // when done, add hash to url
                 // (default click behaviour)
-                window.location.hash = hash;
-            });
+                if (history.pushState) {
+                    history.pushState(null, null, hash);
+                }
+                else {
+                    window.location.hash = hash;
+                }
 
+
+            });
         });
     });
 </script>

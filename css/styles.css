@@ -6223,9 +6223,11 @@ section {
 #title .titleContent {
   position: relative;
 }
-#title .titleContent span.fa-stack {
+#title .titleContent #presentationLink {
+  display: block;
   position: absolute;
   bottom: 0;
+  left: 50%;
 }
 #title h3 {
   border: 2px solid white;

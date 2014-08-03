@@ -6224,6 +6224,11 @@ section {
   font-weight: 700;
   font-size: 70px;
 }
+@media (max-width: 767px) {
+  #title h2 {
+    font-size: 50px;
+  }
+}
 #title .titleContent {
   position: relative;
 }
@@ -6240,6 +6245,11 @@ section {
   font-size: 24px;
   font-weight: 300;
   color: #fb863a;
+}
+@media (max-width: 767px) {
+  #title h3 {
+    font-size: 20px;
+  }
 }
 #title .inlineBlock {
   display: inline-block;

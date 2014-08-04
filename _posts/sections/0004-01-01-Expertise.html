@@ -5,7 +5,14 @@ containerLess: true
 ---
 <script>
     $(function(){
-        var geoJSON = [
+        var geoJSON,
+            zoom = 5;
+
+        if (window.matchMedia("(max-width: 767px)").matches) {
+            zoom = 3;
+        }
+
+        geoJSON = [
                     {"features": [
                         {"geometry": {"coordinates": [6.654431, 46.504507], "type": "Point"}, "properties": {"description": "<a target=\"_blank\" href=\"http://www3.unil.ch/wpmu/ecdp2013/files/2013/08/Abstract-Book-2-9-13.pdf\">The development of social conventions and creativity: how do 3 to 7 years-old children use objects during dyadic play ?</a> page 107 (<a target=\"_blank\" href=\"http://marketing.audreybarthelemy.com/files/ecdp.pptx\">lien présentation</a>)", "id": "marker-hy1axoay1", "marker-color": "#fa946e", "marker-size": "large", "marker-symbol": "circle", "title": "<h3><a target=\"_blank\" href=\"http://www3.unil.ch/wpmu/ecdp2013\">Lausanne 2013 - Conférence européenne sur la psychologie du développement</a></h3>"}, "type": "Feature"},
                         {"geometry": {"coordinates": [0.144755, 45.648971], "type": "Point"}, "properties": {"description": "<a target=\"_blank\" href=\"http://marketing.audreybarthelemy.com/files/funfood.pdf\">Prépare un repas pour maman ou comment l’enfant entre dans lesconventions sociales : étude développementale chez des enfants de 3 à 8 ans.</a>", "id": "marker-hyeiiex50", "marker-color": "#fa946e", "marker-size": "large", "marker-symbol": "circle", "title": "<h3><a target=\"_blank\" href=\"http://cepe.univ-poitiers.fr/index.php/colloque-fun-food-2010-93.html\">Angouleme 2010 - Congrès international  « Fun Food Conference »</a></h3>"}, "type": "Feature"},
@@ -18,7 +25,7 @@ containerLess: true
                 ],
             map = L.mapbox.map('map', 'popul.j24ic2ki', {
             zoomControl: false
-        }).setView([48.5, 15], 5);
+        }).setView([48.5, 15], zoom);
 
         map.featureLayer.setGeoJSON(geoJSON);
 

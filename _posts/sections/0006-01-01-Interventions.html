@@ -11,6 +11,9 @@ containerLess: true
         if (window.matchMedia("(max-width: 767px)").matches) {
             zoom = 3;
         }
+        else if (window.matchMedia("(min-width: 767px) and (max-width : 991px)").matches) {
+            zoom = 4;
+        }
 
         geoJSON = [
                     {"features": [

@@ -6383,6 +6383,11 @@ section {
 #interventions #map {
   height: 600px;
 }
+@media (min-width: 767px) and (max-width : 991px) {
+  #interventions #map {
+    height: 450px;
+  }
+}
 @media (max-width: 767px) {
   #interventions #map {
     height: 300px;

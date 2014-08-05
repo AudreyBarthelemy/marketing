@@ -45,7 +45,7 @@ body {
     color: black;
 
     @media @tablet {
-      font-size: 22px;
+      font-size: 20px;
       .firstname {
         display: none;
       }
@@ -284,7 +284,12 @@ section {
     text-align: center;
     color: @titleColor;
   }
-  #map { height: 600px; }
+  #map {
+    height: 600px;
+    @media @phone {
+      height: 300px;
+    }
+  }
 }
 
 #formation {

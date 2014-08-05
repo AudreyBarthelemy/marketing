@@ -6178,7 +6178,7 @@ body {
 }
 @media (min-width: 767px) and (max-width : 991px) {
   .navbar a.navbar-brand {
-    font-size: 22px;
+    font-size: 20px;
   }
   .navbar a.navbar-brand .firstname {
     display: none;
@@ -6382,6 +6382,11 @@ section {
 }
 #interventions #map {
   height: 600px;
+}
+@media (max-width: 767px) {
+  #interventions #map {
+    height: 300px;
+  }
 }
 #formation {
   background-color: #FFF;

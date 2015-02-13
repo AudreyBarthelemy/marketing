@@ -1,4 +1,4 @@
-@titleColor: rgb(251, 134, 58);
+@titleColor: #67BCDB;
 @expColor:  #DDD;
 @phone: ~"(max-width: 767px)";
 @tablet: ~"(min-width: 767px) and (max-width : 991px)";
@@ -189,12 +189,23 @@ section {
   }
 }
 
+#references {
+  padding: 0;
+  border-top: 5px solid #333;
+  border-bottom: 5px solid #333;
+  background-color: @expColor;
+
+  h2 {
+    text-align: center;
+    color: @titleColor;
+  }
+}
+
 #services {
-  margin-top: 60px;
   padding-bottom:0px;
   padding-bottom: 60px;
-  background-color: @titleColor;
-  color: white;
+  background-color: white;
+  color: black;
 
   .citation {
     text-align: center;
@@ -205,7 +216,7 @@ section {
 
   .media {
     .fa-stack-1x {
-      color: @titleColor;
+      color: white;
     }
 
     .media-body {
@@ -362,12 +373,13 @@ section {
 }
 
 #contact {
-  background-color: @titleColor;
+  background-color: white;
   padding-top:60px;
-  color: white;
+  color: @titleColor;
+  border-top: @titleColor 5px solid;
 
   a {
-    color: white;
+    color: @titleColor;
   }
 
   address {
@@ -377,6 +389,7 @@ section {
   h2 {
     text-align: center;
     margin-bottom: 60px;
+    color: @titleColor;
   }
 
   .subTitle {
@@ -386,7 +399,7 @@ section {
   .medium-icon {
     margin-top: 20px;
     margin-right: 20px;
-    color: #fff;
+    color: @titleColor;
     font-size: 50px;
     height: 50px;
     width: 50px;

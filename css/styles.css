@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -6213,7 +6214,7 @@ h3 {
   font-family: 'Roboto', serif;
 }
 a {
-  color: #cb5204;
+  color: #2a8eb2;
 }
 section {
   padding-bottom: 30px;
@@ -6225,7 +6226,7 @@ section {
   padding-bottom: 40px;
   text-align: center;
   color: white;
-  border-bottom: 5px solid #fb863a;
+  border-bottom: 5px solid #67bcdb;
 }
 #title h2 {
   color: white;
@@ -6252,7 +6253,7 @@ section {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 300;
-  color: #fb863a;
+  color: #67bcdb;
 }
 @media (max-width: 767px) {
   #title h3 {
@@ -6263,7 +6264,7 @@ section {
   display: inline-block;
 }
 #title .fa-inverse {
-  color: #fb863a;
+  color: #67bcdb;
 }
 .top-buffer {
   margin-top: 20px;
@@ -6278,7 +6279,7 @@ section {
   margin-top: 45px;
 }
 .primaryColor {
-  color: #fb863a;
+  color: #67bcdb;
 }
 .portrait {
   width: 400px;
@@ -6298,12 +6299,21 @@ section {
   font-family: 'Roboto', serif;
   font-size: 50px;
 }
+#references {
+  padding: 0;
+  border-top: 5px solid #333;
+  border-bottom: 5px solid #333;
+  background-color: #dddddd;
+}
+#references h2 {
+  text-align: center;
+  color: #67bcdb;
+}
 #services {
-  margin-top: 60px;
   padding-bottom: 0px;
   padding-bottom: 60px;
-  background-color: #fb863a;
-  color: white;
+  background-color: white;
+  color: black;
 }
 #services .citation {
   text-align: center;
@@ -6312,7 +6322,7 @@ section {
   font-style: italic;
 }
 #services .media .fa-stack-1x {
-  color: #fb863a;
+  color: white;
 }
 #services .media .media-body {
   padding-top: 20px;
@@ -6335,7 +6345,7 @@ section {
   }
 }
 #experiences h2 {
-  color: #fb863a;
+  color: #67bcdb;
   text-align: center;
 }
 #experiences i {
@@ -6378,7 +6388,7 @@ section {
   margin-top: 0;
   margin-bottom: 30px;
   text-align: center;
-  color: #fb863a;
+  color: #67bcdb;
 }
 #interventions #map {
   height: 600px;
@@ -6411,11 +6421,11 @@ section {
   }
 }
 #formation h2 {
-  color: #fb863a;
+  color: #67bcdb;
   text-align: center;
 }
 #formation i {
-  color: #fba63a;
+  color: #67a9db;
   margin-left: 20px;
   position: relative;
   top: 4px;
@@ -6453,12 +6463,13 @@ section {
   }
 }
 #contact {
-  background-color: #fb863a;
+  background-color: white;
   padding-top: 60px;
-  color: white;
+  color: #67bcdb;
+  border-top: #67bcdb 5px solid;
 }
 #contact a {
-  color: white;
+  color: #67bcdb;
 }
 #contact address {
   margin-bottom: 0;
@@ -6466,6 +6477,7 @@ section {
 #contact h2 {
   text-align: center;
   margin-bottom: 60px;
+  color: #67bcdb;
 }
 #contact .subTitle {
   font-size: 18px;
@@ -6473,13 +6485,13 @@ section {
 #contact .medium-icon {
   margin-top: 20px;
   margin-right: 20px;
-  color: #fff;
+  color: #67bcdb;
   font-size: 50px;
   height: 50px;
   width: 50px;
 }
 #contact .medium-icon:hover {
-  color: #cb5204;
+  color: #2a8eb2;
   text-decoration: none;
 }
 .roundedDivPinkSmall {
@@ -7147,7 +7159,6 @@ div.jqcloud span {
 .genericon-leftarrow:before {
   content: '\f503';
 }
-@charset "UTF-8";
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
